@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <VideoHeader title={video.title} url={video.embedUrl} views={video.views} createdAt={video.createdAt}/>
       <Button upvotes={video.upvotes} downvotes={video.downvotes}/>
-      <Comments />
+      <Comments comments={video.comments} />
       
       
       
